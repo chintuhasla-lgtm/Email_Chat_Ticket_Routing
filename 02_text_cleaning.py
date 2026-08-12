@@ -15,8 +15,8 @@ def ensure_stopwords():
     """Download NLTK stopwords corpus if not already present."""
     try:
         stopwords.words("english")
-    except LookupError:
-        nltk.download("stopwords")
+    except (LookupError, OSError):
+        nltk.download("stopwords", quiet=True)
 
 
 def clean_ticket_text(text: str) -> str:
@@ -83,7 +83,10 @@ def clean_ticket_text(text: str) -> str:
 
     # Tokenize and remove stopwords
     words = re.findall(r"\b\w+\b", txt)
-    sw = set(stopwords.words("english"))
+    try:
+        sw = set(stopwords.words("english"))
+    except (LookupError, OSError):
+        sw = set()
     words = [w for w in words if w not in sw]
 
     return " ".join(words)

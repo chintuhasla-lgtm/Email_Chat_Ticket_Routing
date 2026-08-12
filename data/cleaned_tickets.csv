@@ -1,0 +1,16 @@
+Ticket_ID,Ticket_Type,Ticket_Priority,Customer_Email,Body_Text,clean_text
+T001,Billing,High,john@example.com,I was charged twice for my subscription. Please investigate this issue and refund the duplicate charge.,charged twice subscription please investigate issue refund duplicate charge
+T002,Technical,Critical,jane@example.com,Our system is down and we cannot access any features. Immediate assistance needed.,system cannot access features immediate assistance needed
+T003,General,Low,bob@example.com,What are your business hours? I have a quick question.,business hours quick question
+T004,Billing,Medium,alice@example.com,Can I get an invoice for my recent purchase?,get invoice recent purchase
+T005,Technical,High,carol@example.com,I'm experiencing slow performance on the mobile app.,experiencing slow performance mobile app
+T006,General,Low,david@example.com,Do you have office locations in my city?,office locations city
+T007,Billing,Critical,eve@example.com,Payment failed but money was deducted. Need immediate resolution.,payment failed money deducted need immediate resolution
+T008,Technical,Medium,frank@example.com,Login page is not loading properly on Firefox browser.,login page loading properly firefox browser
+T009,General,Medium,grace@example.com,Can I upgrade my plan? Tell me about available options.,upgrade plan tell available options
+T010,Billing,Low,henry@example.com,How do I update my payment method in settings?,update payment method settings
+T011,Technical,High,iris@example.com,Database connection keeps dropping randomly throughout the day.,database connection keeps dropping randomly throughout day
+T012,General,,jack@example.com,Interested in partnerships with your company please advise.,interested partnerships company please advise
+T013,Billing,Medium,kate@example.com,Refund request for unused service credits from last month.,refund request unused service credits last month
+T014,Technical,Low,,The API documentation link on your website is broken.,api documentation link website broken
+T015,General,High,mike@example.com,Your customer service was absolutely terrible I want to speak to management immediately.,customer service absolutely terrible want speak management immediately
